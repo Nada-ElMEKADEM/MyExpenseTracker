@@ -1,0 +1,17 @@
+package manada.expensetracker.dto;
+
+import lombok.Data;
+
+import java.time.LocalDate;
+
+@Data
+public class ExpenseDto {
+
+
+    private String title;
+    private Integer amount ;
+    private LocalDate date;
+    private String category;
+    private String description;
+    private Long userId;
+}
